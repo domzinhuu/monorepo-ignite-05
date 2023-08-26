@@ -1,6 +1,6 @@
 {
-  "name": "@msrsoftware/eslint-config",
-  "version": "1.0.0",
+  "name": "@domzinhuu/eslint-config",
+  "version": "2.0.0",
   "private": true,
   "license": "MIT",
   "main": "index.js",

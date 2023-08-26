@@ -1,4 +1,4 @@
-import { fontSizes } from "@msrsoftware/tokens"
+import { fontSizes } from "@domzinhuu/tokens"
 import { getContrast } from "polished"
 
 export const extractFontSizeFromTokens = () => {

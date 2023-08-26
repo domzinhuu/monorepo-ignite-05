@@ -1,6 +1,9 @@
 {
-  "name": "@msrsoftware/tokens",
-  "version": "1.1.0",
+  "name": "@domzinhuu/tokens",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -15,11 +18,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@domzinhuu/eslint-config": "*",
+    "@domzinhuu/ts-config": "*",
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
-  },
-  "dependencies": {
-    "@msrsoftware/eslint-config": "*",
-    "@msrsoftware/ts-config": "*"
   }
 }

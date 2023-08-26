@@ -1,5 +1,5 @@
 {
-  "name": "@msrsoftware/docs",
+  "name": "@domzinhuu/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,10 +13,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@msrsoftware/eslint-config": "*",
-    "@msrsoftware/tokens": "*",
-    "@msrsoftware/ts-config": "*",
-    "@msrsoftware/ui": "*",
+    "@domzinhuu/eslint-config": "*",
+    "@domzinhuu/tokens": "*",
+    "@domzinhuu/ts-config": "*",
+    "@domzinhuu/ui": "*",
     "@storybook/addon-essentials": "^7.3.2",
     "@storybook/addon-interactions": "^7.3.2",
     "@storybook/addon-links": "^7.3.2",

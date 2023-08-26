@@ -1,20 +1,21 @@
 {
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "changeset":"changeset",
-    "version-packages":"changeset version",
-    "release": "turbo run build && changeset publish"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!docs && changeset publish"
   },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "turbo": "^1.10.13"
+  },
+  "dependencies": {
+    "npm": "^9.8.1"
   }
 }

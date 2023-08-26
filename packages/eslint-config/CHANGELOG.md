@@ -1,4 +1,4 @@
-# @domzinhuu/ui
+# @domzinhuu/eslint-config
 
 ## 2.0.0
 
@@ -11,9 +11,3 @@
 ### Minor Changes
 
 - vai
-
-## 1.1.0
-
-### Minor Changes
-
-- first publish

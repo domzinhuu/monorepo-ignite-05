@@ -1,3 +1,3 @@
 {
-    "extends":"@msrsoftware/eslint-config"
+    "extends":"@domzinhuu/eslint-config"
 }
