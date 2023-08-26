@@ -20,7 +20,7 @@ const config = {
     getAbsolutePath("@storybook/addon-links"),
     getAbsolutePath("@storybook/addon-essentials"),
     getAbsolutePath("@storybook/addon-onboarding"),
-    getAbsolutePath("@storybook/addon-a11y"),
+    getAbsolutePath("@storybook/addon-a11y")
   ],
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
@@ -29,6 +29,13 @@ const config = {
 
   docs: {
     autodocs: true
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/monorepo-ignite-05/"
+    }
+
+    return config
   }
 }
 export default config
