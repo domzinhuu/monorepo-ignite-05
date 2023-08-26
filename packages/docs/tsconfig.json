@@ -1,4 +1,4 @@
 {
-  "extends": "@nodeb/ts-config/react.json",
+  "extends": "@msrsoftware/ts-config/react.json",
   "include": ["src"]
 }

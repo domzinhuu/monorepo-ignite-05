@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space
-} from "@nodeb/tokens"
+} from "@msrsoftware/tokens"
 import { createStitches, defaultThemeMap } from "@stitches/react"
 
 export const {

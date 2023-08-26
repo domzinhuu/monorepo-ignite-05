@@ -1,3 +1,3 @@
 {
-    "extends":"@nodeb/eslint-config"
+    "extends":"@msrsoftware/eslint-config"
 }

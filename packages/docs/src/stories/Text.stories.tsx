@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react"
-import { Text, TextProps } from "@nodeb/ui"
+import { Text, TextProps } from "@msrsoftware/ui"
 
 export default {
   title: "Surfaces/Text",

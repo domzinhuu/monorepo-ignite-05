@@ -1,6 +1,6 @@
 {
-  "name": "@nodeb/tokens",
-  "version": "1.0.0",
+  "name": "@msrsoftware/tokens",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -15,9 +15,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@nodeb/eslint-config":"*",
-    "@nodeb/ts-config": "*",
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@msrsoftware/eslint-config": "*",
+    "@msrsoftware/ts-config": "*"
   }
 }

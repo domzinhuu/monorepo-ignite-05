@@ -1,4 +1,4 @@
-import { colors } from "@nodeb/tokens"
+import { colors } from "@msrsoftware/tokens"
 import { getContrast } from "polished"
 
 export function ColorGrid() {

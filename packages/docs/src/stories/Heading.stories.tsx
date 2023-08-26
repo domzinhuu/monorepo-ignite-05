@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react"
-import { Heading, HeadingProps } from "@nodeb/ui"
+import { Heading, HeadingProps } from "@msrsoftware/ui"
 
 export default {
   title: "Surfaces/Heading",
