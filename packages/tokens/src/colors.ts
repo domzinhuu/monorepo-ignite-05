@@ -16,4 +16,6 @@ export const colors = {
   nodeb500: '#00875F',
   nodeb700: '#015F43',
   nodeb900: '#00291D',
+
+  test: '#fefedf'
 }
